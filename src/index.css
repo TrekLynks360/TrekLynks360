@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #f8fafc;
+    background-color: #020617;
+  }
+}
+
+@keyframes bounceLeft {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-4px); }
+}
+
+@keyframes bounceRight {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(4px); }
+}
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-bounce-x-left {
+  animation: bounceLeft 1.4s ease-in-out infinite;
+}
+
+.animate-bounce-x-right {
+  animation: bounceRight 1.4s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 16s linear infinite;
+}
