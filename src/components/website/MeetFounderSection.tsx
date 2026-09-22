@@ -47,7 +47,7 @@ export const MeetFounderSection: React.FC<MeetFounderSectionProps> = ({ onOpenBo
                 <div className="absolute top-4 left-4 flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-950/85 backdrop-blur-xl border border-yellow-400/50 shadow-xl">
                   <Award className="w-4 h-4 text-yellow-400" />
                   <span className="text-xs font-black uppercase text-yellow-300 font-['Rajdhani',sans-serif] tracking-wider">
-                    16+ Years Garhwal Master
+                    7+ Years Garhwal Master
                   </span>
                 </div>
 
@@ -85,7 +85,7 @@ export const MeetFounderSection: React.FC<MeetFounderSectionProps> = ({ onOpenBo
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white font-['Rajdhani',sans-serif] uppercase tracking-tight leading-tight">
-              Guided by 16+ Years of Indigenous Mountain Wisdom
+              Guided by 7+ Years of Indigenous Mountain Wisdom
             </h2>
 
             <p className="mt-4 text-slate-200 text-sm sm:text-base leading-relaxed">

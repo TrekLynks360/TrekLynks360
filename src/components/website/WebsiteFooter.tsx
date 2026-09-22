@@ -25,7 +25,7 @@ export const WebsiteFooter: React.FC = () => {
           <div className="lg:col-span-2 space-y-4">
             <Logo />
             <p className="text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
-              Pioneering futuristic 3D & 360° immersive Himalayan trekking experiences across Uttarakhand. Directed by Jiten Bhatt with 16+ years of alpine mountain guidance, 1:6 safety ratios, and 100% zero-loss record.
+              Pioneering futuristic 3D & 360° immersive Himalayan trekking experiences across Uttarakhand. Directed by Jiten Bhatt with 7+ years of alpine mountain guidance, 1:6 safety ratios, and 100% zero-loss record.
             </p>
 
             <div className="flex items-center gap-2 pt-2">

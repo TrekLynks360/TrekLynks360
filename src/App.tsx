@@ -5,7 +5,6 @@ import { Panorama360Viewer } from './components/Panorama360Viewer';
 import { GoogleEarth3DMap } from './components/GoogleEarth3DMap';
 import { Navbar } from './components/Navbar';
 import { HeroContent } from './components/HeroContent';
-import { FounderCard } from './components/FounderCard';
 import { BookingPreviewCard } from './components/BookingPreviewCard';
 import { ControlRing360 } from './components/ControlRing360';
 import { InteractivityHint } from './components/InteractivityHint';
@@ -18,7 +17,6 @@ import { MeetFounderSection } from './components/website/MeetFounderSection';
 import { TeamSection } from './components/website/TeamSection';
 import { SafetySection } from './components/website/SafetySection';
 import { GallerySection } from './components/website/GallerySection';
-import { TestimonialsSection } from './components/website/TestimonialsSection';
 import { BookingInquirySection } from './components/website/BookingInquirySection';
 import { WebsiteFooter } from './components/website/WebsiteFooter';
 
@@ -223,17 +221,12 @@ export default function App() {
               </div>
             </div>
 
-            {/* Center Stage: Floating Cards + Center Hero Text */}
-            <div className="flex-1 flex flex-col justify-center items-center my-2">
+            {/* Center Stage: Hero Text + Right Floating Booking Card */}
+            <div className="flex-1 flex flex-col justify-center items-center my-2 w-full">
               {!isCleanHudMode ? (
                 <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-6 max-w-7xl mx-auto">
-                  {/* Left Floating Card: Meet the Founder (Jiten Bhatt) */}
-                  <div className="order-2 lg:order-1 flex justify-center lg:justify-start w-full lg:w-auto">
-                    <FounderCard onOpenModal={() => scrollToSection('founder')} />
-                  </div>
-
                   {/* Center Main Heading & 3D CTA Buttons */}
-                  <div className="order-1 lg:order-2 flex-1 flex justify-center">
+                  <div className="flex-1 flex justify-center w-full">
                     <HeroContent
                       onExploreTreks={() => scrollToSection('treks')}
                       onOpenBooking={() => scrollToSection('booking')}
@@ -242,7 +235,7 @@ export default function App() {
                   </div>
 
                   {/* Right Floating Card: Booking Preview Card */}
-                  <div className="order-3 flex justify-center lg:justify-end w-full lg:w-auto">
+                  <div className="flex justify-center lg:justify-end w-full lg:w-auto shrink-0">
                     <BookingPreviewCard
                       onViewDetails={() => scrollToSection('treks')}
                       onBookNow={(trek) => handleOpenBookingForTrek(trek)}
@@ -293,7 +286,7 @@ export default function App() {
           <div className="flex items-center gap-3">
             <Award className="w-6 h-6 text-yellow-400 flex-shrink-0" />
             <div className="text-left">
-              <div className="text-sm font-black text-white font-['Rajdhani',sans-serif]">16+ Years Experience</div>
+              <div className="text-sm font-black text-white font-['Rajdhani',sans-serif]">7+ Years Experience</div>
               <div className="text-xs text-slate-400">Garhwal Himalayas Pioneer</div>
             </div>
           </div>
@@ -343,7 +336,7 @@ export default function App() {
         onOpenBooking={() => scrollToSection('booking')}
       />
 
-      {/* 7. Expedition Leaders & Technical Guides Section (Pradeep, Asha, Akash, Jiten) */}
+      {/* 7. Expedition Leaders & Technical Guides Section (Jiten Bhatt & Pradeep) */}
       <TeamSection />
 
       {/* 8. Uncompromising Safety Architecture Section */}
@@ -354,13 +347,10 @@ export default function App() {
         onExploreIn360={handleViewTrekIn360}
       />
 
-      {/* 10. Authentic Trekker Testimonials Section */}
-      <TestimonialsSection />
-
-      {/* 11. Direct Basecamp Reservations & Inquiries Form */}
+      {/* 10. Direct Basecamp Reservations & Inquiries Form */}
       <BookingInquirySection />
 
-      {/* 12. Full Website Footer with Dehradun Logistics & Sankri Basecamp Details */}
+      {/* 11. Full Website Footer with Dehradun Logistics & Sankri Basecamp Details */}
       <WebsiteFooter />
 
       {/* Interactive Modals (for detailed day-by-day views and instant popups) */}

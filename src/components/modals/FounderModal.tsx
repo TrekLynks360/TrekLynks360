@@ -27,7 +27,7 @@ export const FounderModal: React.FC<FounderModalProps> = ({
             <span className="px-2.5 py-0.5 rounded-full bg-red-600/30 border border-red-500/40 text-red-400 text-xs font-black uppercase font-['Rajdhani',sans-serif]">
               Founder & Lead Expedition Leader
             </span>
-            <span className="text-xs text-yellow-400 font-bold font-mono">16+ YRS UTTARAKHAND</span>
+            <span className="text-xs text-yellow-400 font-bold font-mono">7+ YRS UTTARAKHAND</span>
           </div>
 
           <button
@@ -66,7 +66,7 @@ export const FounderModal: React.FC<FounderModalProps> = ({
               </p>
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-xl bg-red-950/60 border border-red-500/40 text-red-200 text-xs font-bold font-['Rajdhani',sans-serif] uppercase">
                 <Award className="w-4 h-4 text-yellow-400" />
-                <span>16+ Years Experience in Uttarakhand</span>
+                <span>7+ Years Experience in Uttarakhand</span>
               </div>
               <p className="text-xs text-slate-300 italic pt-1">
                 "{FOUNDER_INFO.quote}"

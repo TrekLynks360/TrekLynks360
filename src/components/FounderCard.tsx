@@ -58,7 +58,7 @@ export const FounderCard: React.FC<FounderCardProps> = ({ onOpenModal }) => {
           <div className="mt-2.5 inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-red-950/70 border border-red-500/50 text-red-200">
             <Award className="w-4 h-4 text-yellow-400 flex-shrink-0" />
             <span className="text-xs font-black tracking-tight font-['Rajdhani',sans-serif] uppercase">
-              16+ Years Experience in Uttarakhand
+              7+ Years Experience in Uttarakhand
             </span>
           </div>
         </div>

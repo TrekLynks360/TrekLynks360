@@ -45,7 +45,7 @@ export const TreksModal: React.FC<TreksModalProps> = ({
               <span className="px-2.5 py-0.5 rounded-full bg-red-600/30 border border-red-500/40 text-red-400 text-xs font-black uppercase font-['Rajdhani',sans-serif]">
                 Garhwal & Kumaon
               </span>
-              <span className="text-xs text-yellow-400 font-bold font-mono">16+ YRS EXPERTISE</span>
+              <span className="text-xs text-yellow-400 font-bold font-mono">7+ YRS EXPERTISE</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-black text-white uppercase font-['Rajdhani',sans-serif] tracking-tight mt-1">
               Curated Himalayan Expeditions

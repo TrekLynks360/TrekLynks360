@@ -102,7 +102,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', size = 'md', onClick
           </span>
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-yellow-400" />
           <span className="text-xs font-semibold text-emerald-400 tracking-wider">
-            16 Yrs Exp
+            7+ Yrs Exp
           </span>
         </div>
       </div>

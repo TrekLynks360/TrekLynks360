@@ -342,12 +342,12 @@ export const TREKS_DATA: Trek[] = [
 export const FOUNDER_INFO = {
   name: 'Jiten Bhatt',
   role: 'Founder & Lead Expedition Leader',
-  experience: '16+ Years Experience in Uttarakhand',
+  experience: '7+ Years Experience in Uttarakhand',
   location: 'Garhwal Himalayas, Uttarakhand, India',
   stats: [
     { label: 'Himalayan Expeditions', value: '250+' },
     { label: 'Trekkers Guided Safely', value: '22,000+' },
-    { label: 'Years in High Altitude', value: '16+ Years' },
+    { label: 'Years in High Altitude', value: '7+ Years' },
     { label: 'Safety Record', value: '100% Zero-Loss' },
   ],
   certifications: [
@@ -356,7 +356,7 @@ export const FOUNDER_INFO = {
     'Uttarakhand Tourism Development Board (UTDB) Registered Expedition Leader',
     'Avalanche Safety & Glacial Rescue Specialist (Search & Rescue Certified)',
   ],
-  bio: `Born and raised in the rugged heart of the Garhwal Himalayas, Jiten Bhatt has dedicated over 16 years of his life to charting, preserving, and leading journeys through Uttarakhand's most sacred and thrilling mountain corridors. Having guided over 22,000 adventure enthusiasts, student expeditions, and international mountaineers, Jiten combines deep indigenous folk knowledge of Himalayan weather patterns with world-class technical mountaineering training from NIM. Under his philosophy at TrekLynks360°, every trekker experiences the raw grandeur of Uttarakhand with unconditional safety, top-tier alpine equipment, and profound respect for local mountain communities.`,
+  bio: `Born and raised in the rugged heart of the Garhwal Himalayas, Jiten Bhatt has dedicated over 7 years of his life to charting, preserving, and leading journeys through Uttarakhand's most sacred and thrilling mountain corridors. Having guided over 22,000 adventure enthusiasts, student expeditions, and international mountaineers, Jiten combines deep indigenous folk knowledge of Himalayan weather patterns with world-class technical mountaineering training from NIM. Under his philosophy at TrekLynks360°, every trekker experiences the raw grandeur of Uttarakhand with unconditional safety, top-tier alpine equipment, and profound respect for local mountain communities.`,
   quote: `The mountains do not demand conquest; they demand presence, preparation, and humility. At TrekLynks360°, we connect your soul to the peaks.`,
   image: '/images/jiten_bhatt.jpg',
 };
@@ -365,7 +365,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'Jiten Bhatt',
     role: 'Founder & Head of Expeditions',
-    experience: '16+ Years',
+    experience: '7+ Years',
     certifications: ['NIM Mountaineer', 'Wilderness First Responder', 'Garhwal Native'],
     image: '/images/jiten_bhatt.jpg',
     bio: 'Founder, veteran mountaineer with 250+ high-altitude expeditions across Garhwal and Kumaon.',
@@ -373,26 +373,10 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'Pradeep',
     role: 'Senior Alpine Technical Guide',
-    experience: '12+ Years',
+    experience: '3+ Years',
     certifications: ['NIM Method of Instruction', 'High-Altitude Rescue'],
     image: '/images/pradeep.jpg',
     bio: 'Specialist in snow gully traverses, technical pass crossings, and Rupin Pass route navigation.',
-  },
-  {
-    name: 'Asha Semwal',
-    role: 'High Altitude Medic & Flora Expert',
-    experience: '8+ Years',
-    certifications: ['Certified Paramedic', 'Garhwal University Botanical Researcher'],
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
-    bio: 'Leads our Valley of Flowers expeditions; oversees trekker vitals and acclimatization protocols.',
-  },
-  {
-    name: 'Akash',
-    role: 'Camp Master & Head of Logistics',
-    experience: '15+ Years',
-    certifications: ['Eco-Trek Himalayan Safety', 'Nutrition Specialist'],
-    image: '/images/akash.jpg',
-    bio: 'Sankri native who oversees zero-waste camp operations and hot nutritious meals at 14,000 ft.',
   },
 ];
 
@@ -415,7 +399,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     trekName: 'Valley of Flowers & Hemkund',
     rating: 5,
     date: 'August 2025',
-    comment: 'As a physician, I was immensely impressed by their high-altitude safety standards. Twice-daily oximeter checks, certified medics, and spotless zero-waste camps. Asha and Jiten made our botanical exploration unforgettable!',
+    comment: 'As a physician, I was immensely impressed by their high-altitude safety standards. Twice-daily oximeter checks, certified medics, and spotless zero-waste camps. Jiten and his team made our botanical exploration unforgettable!',
     avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80',
     badge: 'Medical Professional & Trekker',
   },
@@ -426,7 +410,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     trekName: 'Rupin Pass High Altitude Traverse',
     rating: 5,
     date: 'June 2025',
-    comment: 'Rupin Pass is technically demanding, but Pradeep and Jiten navigated the 1,500 ft snow gully with textbook precision. Their 16 years of local Himalayan expertise shines through every step. The 3D map before the trek gave us 100% confidence.',
+    comment: 'Rupin Pass is technically demanding, but Pradeep and Jiten navigated the 1,500 ft snow gully with textbook precision. Their 7+ years of local Himalayan expertise shines through every step. The 3D map before the trek gave us 100% confidence.',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
     badge: 'International Mountaineer',
   },
@@ -437,7 +421,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     trekName: 'Har Ki Dun Valley',
     rating: 5,
     date: 'October 2025',
-    comment: 'Akash served steaming hot Garhwali meals and herbal tea even when temperatures plummeted. Staying in 3000-year-old Osla village and walking with Jiten was deeply respectful to local culture. 10/10 recommend TrekLynks360°!',
+    comment: 'The expedition team served steaming hot Garhwali meals and herbal tea even when temperatures plummeted. Staying in 3000-year-old Osla village and walking with Jiten was deeply respectful to local culture. 10/10 recommend TrekLynks360°!',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
     badge: 'Couple Expedition',
   },

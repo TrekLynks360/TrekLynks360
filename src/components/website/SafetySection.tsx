@@ -62,7 +62,7 @@ export const SafetySection: React.FC = () => {
             100% Zero-Loss High-Altitude Safety Record
           </h2>
           <p className="mt-3 text-slate-300 text-sm sm:text-base">
-            In 16+ years and across 250+ Himalayan expeditions, safety has never been an afterthought at TrekLynks360°. Here is how we protect every breath in the mountains.
+            In 7+ years and across 250+ Himalayan expeditions, safety has never been an afterthought at TrekLynks360°. Here is how we protect every breath in the mountains.
           </p>
         </div>
 

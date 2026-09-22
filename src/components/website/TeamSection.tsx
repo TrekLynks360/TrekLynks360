@@ -19,8 +19,8 @@ export const TeamSection: React.FC = () => {
           </p>
         </div>
 
-        {/* Team Grid (4 Members) */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* Team Grid (Expedition Leaders) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto gap-8">
           {TEAM_MEMBERS.map((member, idx) => (
             <div
               key={idx}

@@ -75,7 +75,7 @@ export const FeaturedTreksSection: React.FC<FeaturedTreksSectionProps> = ({
               Featured Himalayan Treks
             </h2>
             <p className="mt-2 text-slate-300 text-sm sm:text-base max-w-2xl">
-              Carefully engineered high-altitude routes chartered with 16+ years of Garhwal mountaineering wisdom. Every trek includes certified NIM expedition leaders, medical safety backup, and hot Garhwali meals.
+              Carefully engineered high-altitude routes chartered with 7+ years of Garhwal mountaineering wisdom. Every trek includes certified NIM expedition leaders, medical safety backup, and hot Garhwali meals.
             </p>
           </div>
 

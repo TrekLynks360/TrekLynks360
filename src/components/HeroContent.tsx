@@ -41,10 +41,10 @@ export const HeroContent: React.FC<HeroContentProps> = ({
       </h1>
 
       {/* Subheading strictly as requested:
-          "Experience immersive treks, guided by expertise of 16 years. Book your next journey with TrekLynks360°."
+          "Experience immersive treks, guided by expertise of 7+ years. Book your next journey with TrekLynks360°."
       */}
       <p className="mt-4 sm:mt-5 text-base sm:text-lg md:text-xl text-slate-200 font-semibold max-w-2xl leading-relaxed drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">
-        Experience immersive treks, guided by expertise of 16 years. Book your next journey with{' '}
+        Experience immersive treks, guided by expertise of 7+ years. Book your next journey with{' '}
         <span className="font-extrabold text-white">
           <span className="text-red-500">TrekLynks</span>
           <span className="text-yellow-400">360°</span>
@@ -103,7 +103,7 @@ export const HeroContent: React.FC<HeroContentProps> = ({
       <div className="mt-5 hidden sm:flex items-center gap-4 text-xs text-slate-300 font-medium drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
         <div className="flex items-center gap-1.5">
           <Award className="w-4 h-4 text-yellow-400" />
-          <span>16+ Years Uttarakhand Pioneer</span>
+          <span>7+ Years Uttarakhand Pioneer</span>
         </div>
         <span className="text-white/20">•</span>
         <div className="flex items-center gap-1.5">
